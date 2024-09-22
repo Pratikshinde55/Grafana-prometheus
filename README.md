@@ -110,9 +110,29 @@ Start Prometheus Node_exporter command:
  ![image](https://github.com/user-attachments/assets/e39b30df-6eac-40c5-98be-78821a2a25bf)
 
 
+ ### Add Linux OS to Prometheus:
+
+ On Prometheus EC2 terminal we add target node that linux OS where i installed Prometheus Node_exporter.
+
+ - Note:
+
+   "promethus.yml" this is prometheus config file here we add target node details.
+
+![image](https://github.com/user-attachments/assets/2fd90053-efca-4690-a5dc-2512b15e6b25)
+
  
- 
- 
+After doing change in prometheus.yml config file then need restart Prometheus server for apply change:
+
+Command for delete prometheus process :
+
+    pkill prometheus
+
+Command for Start Prometheus server:
+
+    ./prometheus &
+
+    
+    
      
        
 

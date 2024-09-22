@@ -53,7 +53,7 @@ Access on google->> public Ip + port no
 
    Prometheus work on port number = "9090"
 
-   Prometheus protocol = "Http"
+   Prometheus protocol = "HTTP"
 
  ![image](https://github.com/user-attachments/assets/214060d2-1ba9-4e28-ba59-dd6383cbd0c7)
 

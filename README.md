@@ -70,6 +70,34 @@ On Grafana DashBoard Go to "Connection" option and serach Prometheus and Click o
 Save and test, Now Grafana Connected to Prometheus.
 
 
+### Step-4: Linux OS configure and install Node_exporter
+
+I use amazon linux2 EC2 instance for linux operating system and i collect metrics of this instance/OS.
+
+##### Prometheus Node_exporter:
+
+This is Prometheus agent which is installed on target system, and this Node_exporter collect metrics of target system and expose to the Prometheus system.
+
+Install Node exporter (https://prometheus.io/download/) Refer this link for download Node_exporter for linux and Copy link address and download tar file.
+
+Command Download Node_exporter:
+
+    wget https://github.com/prometheus/node_exporter/releases/download/v1.8.2/node_exporter-1.8.2.linux-amd64.tar.gz
+
+
+Extract Note_exporter:
+
+    tar -xvzf node_exporter-1.8.2.linux-amd64.tar.gz
+
+Go to Node_exporter:
+
+     cd node_exporter-1.8.2.linux-amd64
+
+Start Prometheus Node_exporter command:
+
+     ./node_exporter &
+
+     
  
      
        

@@ -140,7 +140,13 @@ Command for Start Prometheus server:
 
 ![image](https://github.com/user-attachments/assets/97dc88f8-fade-48bc-acd0-f461255eae74)
 
-     
+
+### Grafana
+
+Grafana is connected to prometheus and Prometheus is connected to Linux OS. Here i create Dashboard of Linux OS metrics.
+
+![image](https://github.com/user-attachments/assets/871cae3d-cf07-45bf-a85f-addf596cdc76)
+
        
 
       

@@ -134,11 +134,11 @@ Command for Start Prometheus server:
 
     ./prometheus &
 
+![image](https://github.com/user-attachments/assets/2c807b28-ba35-49dd-8e00-995b29062c2f)
 
-### Restart Grafana Server:
+ Added  Linux OS to prometheus using Node_exporter
 
- When we add new target to prometheus we restart prometheus server and then we access targent metrics on prometheus, and then we restart 
-    
+
      
        
 

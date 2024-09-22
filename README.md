@@ -138,6 +138,7 @@ Command for Start Prometheus server:
 
  Added  Linux OS to prometheus using Node_exporter
 
+![image](https://github.com/user-attachments/assets/97dc88f8-fade-48bc-acd0-f461255eae74)
 
      
        

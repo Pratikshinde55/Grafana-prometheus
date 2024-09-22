@@ -67,6 +67,7 @@ On Grafana DashBoard Go to "Connection" option and serach Prometheus and Click o
   
 ![image](https://github.com/user-attachments/assets/f1878fa5-40eb-4a4c-8947-7dc327d909b1)
 
+Save and test, Now Grafana Connected to Prometheus
  
      
        

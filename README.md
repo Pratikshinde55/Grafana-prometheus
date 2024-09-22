@@ -120,7 +120,7 @@ Start Prometheus Node_exporter command:
  
 ![image](https://github.com/user-attachments/assets/2fd90053-efca-4690-a5dc-2512b15e6b25)
 
-![image](https://github.com/user-attachments/assets/ace3fa32-b8bc-4f68-8578-49b06a3ec7b7)
+![image](https://github.com/user-attachments/assets/3e1a35bf-233b-400f-ada9-63a24b595397)
 
 
  

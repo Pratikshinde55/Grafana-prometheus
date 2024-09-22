@@ -120,6 +120,9 @@ Start Prometheus Node_exporter command:
 
 ![image](https://github.com/user-attachments/assets/2fd90053-efca-4690-a5dc-2512b15e6b25)
 
+![image](https://github.com/user-attachments/assets/ace3fa32-b8bc-4f68-8578-49b06a3ec7b7)
+
+
  
 After doing change in prometheus.yml config file then need restart Prometheus server for apply change:
 
@@ -131,7 +134,10 @@ Command for Start Prometheus server:
 
     ./prometheus &
 
-    
+
+### Restart Grafana Server:
+
+ When we add new target to prometheus we restart prometheus server and then we access targent metrics on prometheus, and then we restart 
     
      
        

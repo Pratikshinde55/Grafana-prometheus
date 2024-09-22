@@ -97,7 +97,21 @@ Start Prometheus Node_exporter command:
 
      ./node_exporter &
 
-     
+
+- Note:
+
+ Prometheus Node_exporter exposes metrics on port no = "9100"
+
+ Prometheus Node_exporter protocol = "HTTP"
+
+
+ We can Access node exporter from google also ->> protocol name + public Ip of Instance + port no -->>  http://65.0.131.182:9100/metrics
+
+ ![image](https://github.com/user-attachments/assets/e39b30df-6eac-40c5-98be-78821a2a25bf)
+
+
+ 
+ 
  
      
        

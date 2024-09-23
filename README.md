@@ -25,6 +25,10 @@ Start Grafana server :
 
 ### Step-2:  Prometheus download 
 
+Prometheus is used for monitoring metrics and Alerting. Prometheus collect data and store at own DataBase(TSDB).
+
+Prometheus collect metrics from any system with help of Agent or Agentless.
+
 Prometheus download on AWS EC2 instance using amazon linux-2 AMI.
 
 Edit inbound rule of prometheus for access.

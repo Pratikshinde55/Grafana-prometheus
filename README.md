@@ -33,7 +33,7 @@ Edit inbound rule of prometheus for access.
 
 Command for download Prometheus:
 
-[Prometheus-link](https://prometheus.io/download/)  copy link adress and download tar file.
+[Prometheus-link](https://prometheus.io/download/) , open link copy link adress and download tar file.
 
       wget https://github.com/prometheus/prometheus/releases/download/v2.53.2/prometheus-2.53.2.linux-amd64.tar.gz
 

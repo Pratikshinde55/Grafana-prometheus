@@ -80,7 +80,7 @@ I use amazon linux2 EC2 instance for linux operating system and i collect metric
 
 This is Prometheus agent which is installed on target system, and this Node_exporter collect metrics of target system and expose to the Prometheus system.
 
-Install Node exporter (https://prometheus.io/download/) Refer this link for download Node_exporter for linux and Copy link address and download tar file.
+Install [Node_exporter-link](https://prometheus.io/download/)  Refer this link for download Node_exporter for linux and Copy link address and download tar file.
 
 Command Download Node_exporter:
 

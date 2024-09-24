@@ -23,9 +23,9 @@ Start Grafana server :
 
 ### Step-2:  Prometheus download 
 
-Prometheus is used for monitoring metrics and Alerting. Prometheus collect data and store at own DataBase(TSDB).
+**Prometheus is used for monitoring metrics and Alerting. Prometheus collect data and store at own DataBase(TSDB).**
 
-Prometheus collect metrics from any system with help of Agent or Agentless.
+**Prometheus collect metrics from any system with help of Agent or Agentless.**
 
 Prometheus download on AWS EC2 instance using amazon linux-2 AMI.
 
@@ -53,9 +53,9 @@ Access on google->> public Ip + port no
 
 - Note:
 
-   Prometheus work on port number = "9090"
+   Prometheus work on port number = **"9090"**
 
-   Prometheus protocol = "HTTP"
+   Prometheus protocol = **"HTTP"**
 
  ![image](https://github.com/user-attachments/assets/214060d2-1ba9-4e28-ba59-dd6383cbd0c7)
 
@@ -78,7 +78,7 @@ I use amazon linux2 EC2 instance for linux operating system and i collect metric
 
 ##### Prometheus Node_exporter:
 
-This is Prometheus agent which is installed on target system, and this Node_exporter collect metrics of target system and expose to the Prometheus system.
+This is Prometheus agent which is installed on target system, and this **Node_exporter** collect metrics of target system and expose to the Prometheus system.
 
 Install [Node_exporter-link](https://prometheus.io/download/)  Refer this link for download Node_exporter for linux and Copy link address and download tar file.
 
@@ -102,9 +102,9 @@ Start Prometheus Node_exporter command:
 
 - Note:
 
- Prometheus Node_exporter exposes metrics on port no = "9100"
+ Prometheus Node_exporter exposes metrics on port no = **"9100"**
 
- Prometheus Node_exporter protocol = "HTTP"
+ Prometheus Node_exporter protocol = **"HTTP"**
 
 
  We can Access node exporter from google also ->> protocol name + public Ip of Instance + port no -->>  http://65.0.131.182:9100/metrics
@@ -118,7 +118,7 @@ Start Prometheus Node_exporter command:
 
  - Note:
 
-   "promethus.yml" this is prometheus config file here we add target node details.
+   **"promethus.yml"** this is prometheus config file here we add target node details.
  
 ![image](https://github.com/user-attachments/assets/2fd90053-efca-4690-a5dc-2512b15e6b25)
 
@@ -126,7 +126,7 @@ Start Prometheus Node_exporter command:
 
 
  
-After doing change in prometheus.yml config file then need restart Prometheus server for apply change:
+After doing change in prometheus.yml config file then need **restart** Prometheus server for apply change:
 
 Command for delete prometheus process :
 
